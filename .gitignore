@@ -3,16 +3,5 @@
 *.swp
 .DS_Store
 
-.env.local
-.env
-
-# Deployment files (local/temporary)
-.deployment.log
-.deployment-manifest.json
-.deployment.tmp
-.validation.log
-.validation-results.json
-
-# Temporary deployment artifacts
-/tmp/
-*.tmp
+**/node_modules/
+config.bat
